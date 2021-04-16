@@ -1,0 +1,12 @@
+.cell {
+    display: flex;  
+    height: 8rem;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border: solid 0.1rem white;
+    cursor: pointer;
+    &:hover {
+        background-color: rgba($color: #FFF, $alpha: 0.2);
+    }
+}
